@@ -242,7 +242,7 @@ def main():
 
         else:
             print("Cannot be mapped")
-            dev_best_func1[i] = best_func1[i]
+            dev_best_func1[i] = None
             dataset1.append(dev_best_func1[i])
         i = i + 1
     print()
@@ -259,7 +259,7 @@ def main():
 
         else:
             print("Cannot be mapped")
-            dev_best_func2[i] = best_func2[i]
+            dev_best_func2[i] = None
             dataset2.append(dev_best_func2[i])
         i = i + 1
     print()
@@ -276,7 +276,7 @@ def main():
 
         else:
             print("Cannot be mapped")
-            dev_best_func3[i] = best_func3[i]
+            dev_best_func3[i] = None
             dataset3.append(dev_best_func3[i])
         i = i + 1
     print()
@@ -292,7 +292,7 @@ def main():
             dataset4.append(dev_best_func4[i])
         else:
             print("Cannot be mapped")
-            dev_best_func4[i] = best_func4[i]
+            dev_best_func4[i] = None
             dataset4.append(dev_best_func4[i])
         i = i + 1
     print("Mapping for test data with y17 ideal function : " + str(dataset1))
