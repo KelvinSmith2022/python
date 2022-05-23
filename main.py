@@ -397,7 +397,6 @@ def details_ideal():
         connection.execute(sql_query, row)
         print("Record inserted successfully")
 
-
 #  print(best_func2)
 
 if __name__ == '__main__':
